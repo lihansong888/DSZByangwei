@@ -5,13 +5,17 @@ import os
 
 # ========== 填写源的地址 ==========
 URL_LIST = [
-    "https://raw.githubusercontent.com/best-fan/iptv-sources/refs/heads/main/cn_all.m3u8"
+    "https://raw.githubusercontent.com/best-fan/iptv-sources/refs/heads/main/cn_all.m3u8",
+    "https://raw.githubusercontent.com/Free-TV/IPTV/refs/heads/master/playlist.m3u8"
+    
 ]
 
 # ========== 分组映射：左边是源里的分组名，右边是输出时改后的分组名 ==========
 GROUP_MAP = {
     "央视频道": "hansong央视频道",
     "卫视频道": "hansong卫视频道",
+    "China": "Free-TV/IPTV",
+    
 }
 
 def parse_any(text: str):
