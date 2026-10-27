@@ -14,6 +14,7 @@ URL_LIST = [
 GROUP_MAP = {
     "央视频道": "hansong央视频道",
     "卫视频道": "hansong卫视频道",
+    # ========== 以上为best-fan ==========
     "China": "Free-TV/IPTV",
     
 }
